@@ -1,0 +1,85 @@
+@import url( 'https://fonts.googleapis.com/css?family=Open+sans:300,400,600,700,800&display=swap' );
+*{
+  /* margin: 0;
+  padding: 0; */
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+ 
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.logso {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #b5e9ec;
+}
+
+.container {
+  background-color:  #c8d7e1;;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.4);
+  text-align: center;
+  max-width: 100%;
+  min-width:480px;
+  max-height: 100%;
+margin-bottom: 40px;
+display: flex;
+flex-direction: column;
+align-content: center;
+justify-content: center;
+overflow: hidden;
+display: flex;
+padding: 10px;
+}
+
+
+
+h1 {
+  font-size: 2rem;
+  color: #0064a2;
+  text-transform: uppercase;
+
+}
+
+
+.areatext {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin: 0;
+ padding: 40px;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.4em; 
+  font-size: 0.8em;
+  overflow: auto;
+  border-radius: 10px;
+}
+
+.btn {
+  background-color: #b7e3fe;
+  color: #0064a2;
+  border: 0;
+  display: flex;
+border-radius: 10px;
+text-decoration: none;
+align-content: center;
+justify-content: center;
+align-items: center;
+  box-shadow: 0 5px 15px rgba (0,0,0,0.4);
+  padding: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  margin: 10px 40px;
+}
